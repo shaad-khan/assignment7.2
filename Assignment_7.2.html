@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Radius of a circle</title>
+<script>
+function cal()
+{
+var sum=0;
+for(var i=0;i<arguments.length;i++)
+{
+sum+=arguments[i];
+}
+document.getElementById("ans").innerHTML = "<p> Sum of numbers [100+200+300+400] =" + sum;
+
+}
+
+</script>
+</head>
+
+<body>
+<section><p>Click to add the numbers [100,200,300,400]: <button onclick="cal(100,200,300,400)">Calculate Sum</button></p></section>
+<div id="ans"></div>
+
+</body>
+
+</html>
